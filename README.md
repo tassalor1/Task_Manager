@@ -12,4 +12,4 @@ This code is a script for managing tasks and users on a command-line interface. 
 "view_mine(curr_user)" which displays all tasks assigned to the current user.
 It also uses the "datetime" library to get the current date.
 
-"display_stats()" which displays all statistics of the file from the user_overview reports
+"display_stats()" which displays all statistics of the file from the user_overview and task_overview reports
