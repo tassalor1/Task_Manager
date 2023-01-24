@@ -27,7 +27,7 @@ def reg_user():
 
 # Function for tasks
 # user, title, description, start date, due date, status
-###TO DO: validations for user inputs
+
 def add_task():
     # So we can read which users exist
     with open("user.txt", "r") as read_task:
