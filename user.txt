@@ -1,0 +1,8 @@
+admin;password
+admin;adm1n
+hello;goodbyea
+do;fo
+do;gg
+sumo;halo
+roop;troop
+gg;sooop

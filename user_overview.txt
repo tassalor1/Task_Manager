@@ -1,0 +1,7 @@
+Numbers of users: 7
+Total number of tasks: 7
+Number of tasks assigned to admin: 4
+Percentage of tasks assigned to admin: 57.14%
+Percentage of tasks assigned to admin that have been completed: 50.00%
+Percentage of tasks assigned to admin that need to be completed: 50.00%
+Percentage of tasks assigned to admin that have not been completed and are overdue: 125.00%
