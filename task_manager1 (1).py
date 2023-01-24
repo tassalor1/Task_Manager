@@ -38,7 +38,7 @@ def add_task():
         # While true loop
         while not valid_username:
             task_username = input("Name of person assigned to task: ")
-            # If the user name entered is not in user.txt
+            # If the username entered is not in user.txt
             if task_username not in usernames:
                 print("User does not exist. Please enter a valid username")
             else:
@@ -306,7 +306,7 @@ while not logged_in:
     print("LOGIN")
     curr_user = input("Username: ")
     curr_pass = input("Password: ")
-    # If invalid user name and password
+    # If invalid username and password
     if curr_user not in usernames:
         print("This is a invalid username")
     elif curr_pass not in passwords:
