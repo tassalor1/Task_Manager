@@ -1,3 +1,5 @@
+
+#
 # For start date
 import datetime as date
 import datetime
@@ -27,7 +29,6 @@ def reg_user():
 
 # Function for tasks
 # user, title, description, start date, due date, status
-
 def add_task():
     # So we can read which users exist
     with open("user.txt", "r") as read_task:
@@ -261,7 +262,7 @@ def generate_report():
                                     f"that need to be completed: {tasks_to_be_completed:.2f}%\n")
         write_user_overview.write(f"Percentage of tasks assigned to {curr_user} that have not "
                                     f"been completed and are overdue: {overdue_user_tasks:.2f}%\n")
-
+    print("Reports have been generated")
 
 # Create function do display stats
 def display_stats():
@@ -347,6 +348,5 @@ e - Exit
 
 
 
-# GENERATE REPORT
-# Need to generate files task_overview and user_overview
+
 
